@@ -1,0 +1,93 @@
+# ======================
+# SECRETS - NEVER COMMIT
+# ======================
+.env
+*.env
+.env.*
+secrets.py
+config.py
+api_keys.txt
+
+# ======================
+# PYTHON BACKEND
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+*.db
+*.sqlite
+*.sqlite3
+jarvis.db
+
+# ======================
+# FLUTTER / DART
+# ======================
+# Build outputs
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Generated files
+*.g.dart
+*.freezed.dart
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/key.properties
+**/*.keystore
+**/*.jks
+
+# ======================
+# EDITORS & OS
+# ======================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# NGROK
+# ======================
+ngrok.yml
+ngrok.exe
+
+# ======================
+# LOGS
+# ======================
+*.log
+logs/
