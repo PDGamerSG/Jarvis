@@ -12,8 +12,7 @@ dependencies:
     sdk: flutter
   http: ^1.2.0
   speech_to_text: ^6.6.0
-  flutter_tts: ^4.0.2        # ← added: Jarvis speaks back to you
-  cupertino_icons: ^1.0.6
+  flutter_tts: ^4.0.2
 
 dev_dependencies:
   flutter_test:
