@@ -289,7 +289,7 @@ class JarvisService extends ChangeNotifier {
 
     try {
       final response = await http.post(
-        Uri.parse('http://10.0.2.2:8000/chat'),
+        Uri.parse('http://10.97.151.101:8000/chat'),
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({'text': text.trim()}),
       );
